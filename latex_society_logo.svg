@@ -1,0 +1,219 @@
+<svg version="1.1" width="6800" height="10712.5" xmlns="http://www.w3.org/2000/svg">
+    
+    <g id="triangle">
+        <mask id="text_clip">
+            <rect x="0" y="0" width="6800" height="10712.5" fill="white"/>
+            <rect x="0" y="4075" width="6800" height="2250" fill="black"/>
+        </mask>
+
+        <polygon points="5900,7075,900,7075,3400,2700" stroke="black" stroke-width="500" fill="none" mask="url(#text_clip)"/>
+    </g>
+
+    <g id="text_outlines">
+        <line x1="900" y1="4262.5" x2="5900" y2="4262.5" stroke="black" stroke-width="125"/>
+        <line x1="900" y1="6137.5" x2="5900" y2="6137.5" stroke="black" stroke-width="125"/>
+
+        <polygon points="3650,4262.5,3400,3762.5,3150,4262.5" fill="black"/>
+        <polygon points="3650,6137.5,3400,6637.5,3150,6137.5" fill="black"/>
+    </g>
+
+    <g id="text_lettering">
+        <!-- Letter U (w:1225 / h:1290) Letter L (w:894 / h:1260) Letter S (w:768 / h:1320) Distance:100 Total Width:3087‬ -->
+        <path d="
+            M 0 0
+            h 450
+            v 43
+            q -68 14 -106.5 31
+            t -38.5 31
+            v 661
+            q 0 96 22.5 172
+            t 67 128.5
+            t 109.5 80.5
+            t 151 28
+            q 71 0 126 -34.5
+            t 92.5 -90.5
+            t 57 -127.5
+            t 19.5 -145.5
+            v -672
+            q 0 -12 -36.5 -30
+            t -108.5 -32
+            v -43
+            h 420
+            v 43
+            q -68 14 -106.5 31
+            t -38.5 31
+            v 631
+            q 0 131 -32 234
+            t -92 174
+            t -146 108.5
+            t -194 37.5
+            q -103 0 -189.5 -28.5
+            t -149 -87
+            t -97.5 -147.5
+            t -35 -211
+            v -711
+            q 0 -12 -36.5 -30
+            t -108.5 -32
+            v -43
+            z
+            m 1325 0
+            h 450
+            v 43
+            q -68 14 -106.5 31
+            t -38.5 31
+            v 991
+            q 0 18 8.5 31.5
+            t 29.5 23
+            t 57 14.5
+            t 91 5
+            h 143
+            q 46 0 77.5 -5
+            t 55.5 -22.5
+            t 43.5 -51.5
+            t 40.5 -93
+            l 43 18
+            q -8 87 -20.5 151
+            t -20.5 93
+            h -853
+            v -43
+            q 68 -14 106.5 -30.5
+            t 38.5 -30.5
+            v -1051
+            q 0 -12 -36.5 -30
+            t -108.5 -32
+            v -43
+            z
+            m 1008 936
+            l 41 5
+            q 23 59 57.5 102
+            t 76.5 71.5
+            t 90.5 42
+            t 99.5 13.5
+            q 45 0 90.5 -18.5
+            t 81.5 -50.5
+            t 59 -74.5
+            t 23 -90.5
+            q 0 -61 -27 -105
+            t -70.5 -78
+            t -99.5 -61
+            t -114.5 -54
+            t -114.5 -57
+            t -99.5 -70
+            t -70.5 -92.5
+            t -27 -125.5
+            q 0 -31 9 -67
+            t 29 -72
+            t 51.5 -69.5
+            t 76 -59
+            t 102.5 -40.5
+            t 131 -15
+            q 45 0 90.5 7
+            t 85 19
+            t 71.5 29
+            t 50 37
+            q 7 6 0.5 23.5
+            t -20 38
+            t -30 40.5
+            t -28.5 31
+            l -36 -6
+            q -28 -33 -58.5 -55.5
+            t -62 -37
+            t -62.5 -20.5
+            t -59 -6
+            q -56 0 -95.5 17
+            t -65 42.5
+            t -37.5 57
+            t -12 59.5
+            q 0 47 27 83.5
+            t 71 67
+            t 100.5 57.5
+            t 115.5 56.5
+            t 115.5 63.5
+            t 100.5 78
+            t 71 100.5
+            t 27 130.5
+            q 0 45 -12 92
+            t -36.5 92.5
+            t -61 86
+            t -86 70.5
+            t -112 48
+            t -137.5 18
+            q -33 0 -72 -7
+            t -80 -19.5
+            t -81.5 -30.5
+            t -75.5 -41
+            q -7 -4 -10.5 -34
+            t -3.5 -70.5
+            t 3 -82.5
+            t 11 -69
+            z"
+        stroke="none" fill="black" transform="translate(1856.5 4575)"/>
+    </g>
+
+    <g id="ribbon_top">
+        <path d="
+            M 3400 200
+            l 937.5 937.5
+            v 2328.125
+            l -937.5 -1640.625
+            l -937.5 1640.625
+            v -2328.125
+            l 937.5 -937.5
+            z
+            V 1825"
+        stroke="black" stroke-width="125" fill="none"/>
+
+        <path d="
+            M 3400 200
+            v 1625
+            l -937.5 1640.625
+            v -2328.125
+            l 937.5 -937.5
+            z"
+        stroke="black" stroke-width="25" fill="black"/>
+    </g>
+
+    <g id="ribbon_bottom">
+        <path d="
+            M 3400 10512.5
+            l -937.5 -937.5
+            v -2062.5
+            h 1875
+            v 2062.5
+            l -937.5 937.5
+            z
+            v -3000"
+        stroke="black" stroke-width="125" fill="none"/>
+
+        <path d="
+            M 3400 10512.5
+            v -3000
+            h 937.5
+            v 2062.5
+            l -937.5 937.5
+            z"
+        stroke="black" stroke-width="25" fill="black"/>
+    </g>
+
+    <g id="diamonds">
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(27.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(37.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(47.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(57.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(67.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(77.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(87.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(97.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(107.5 3400 5575)"/>
+
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(252.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(262.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(272.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(282.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(292.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(302.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(312.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(322.5 3400 5575)"/>
+        <polygon points="3400,2200,3525,2450,3400,2700,3275,2450" fill="black" transform="rotate(332.5 3400 5575)"/>
+    </g>
+</svg>

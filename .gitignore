@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Except these files
+!.gitignore
+!latex_society_logo.svg
+!latex_society_logo.tex
+!README.md
