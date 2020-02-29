@@ -1,0 +1,29 @@
+name: Generate logos from LaTeX
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v1
+      - name: Install TexLive and poppler-utils
+        run: |
+          sudo add-apt-repository ppa:jonathonf/texlive
+          sudo apt update
+          sudo apt install texlive texlive-latex-extra texlive-extra-utils texlive-generic-extra texlive-extra-utils latexmk poppler-utils netpbm zip
+      - name: Compile LaTeX logo to pdf
+        run: |
+          latexmk latex_society_logo.tex -pdf
+      - name: Generate *.png *.jpg from pdf
+        run: |
+          pdfcrop latex_society_logo.pdf
+          pdftoppm latex_society_logo-crop.pdf | pnmtopng > latex_society_logo.png
+          pdftoppm latex_society_logo-crop.pdf | pnmtojpeg > latex_society_logo.jpg
+      - name: Pack a zip
+        run: |
+          zip logo latex_society_logo.pdf latex_society_logo.png latex_society_logo.jpg
+      - name: Publish logos (pdf|png|jpg)
+        uses: actions/upload-artifact@master
+        with:
+          name: logo
+          path: ./logo.zip
